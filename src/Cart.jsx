@@ -32,7 +32,7 @@ function Cart() {
                   <h4>Price : {item.g}</h4>
                 )}
                 <p>{item.description}</p>
-                <button className='btn btn-primary mb-4'><i className="bi bi-lightning-charge-fill"></i>Buy Now</button>
+                <button className='btn btn-primary mb-4 '><i className="bi bi-lightning-charge-fill"></i>Buy Now</button>
               </div>
             </div>
           ))}
@@ -41,7 +41,7 @@ function Cart() {
       ) : (
         <div className='text-center'>
           <h4 className='text-center mt-4'> <i className="bi bi-question-diamond-fill"></i>  No Cart items added previously? </h4>
-          <Link to={"/Product"}><button className='btn btn-warning btn-lg btn-block'>Go to Products!</button></Link>
+          <Link to={"/Product"}><button className='btn btn-warning btn-lg btn-block mb-4 mt-4'>Go to Products!</button></Link>
         </div>
       )}
     </div>

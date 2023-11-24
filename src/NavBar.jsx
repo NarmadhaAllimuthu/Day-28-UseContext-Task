@@ -55,7 +55,3 @@ export default NavBar
 
 
 
-{/* <Link className="nav-link " to="/cart">
-          <i className="bi-cart-fill me-1"></i> Cart 
-          <span className="badge bg-dark text-white ms-1 rounded-pill">{cart.length}</span>
-              </Link> */}
